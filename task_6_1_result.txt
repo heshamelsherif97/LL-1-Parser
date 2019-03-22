@@ -1,0 +1,12 @@
+S : * : 
+S : + : 
+S : a : a S'
+S : $ : 
+S' : * : epsilon
+S' : + : epsilon
+S' : a : S S''
+S' : $ : epsilon
+S'' : * : * S'
+S'' : + : + S'
+S'' : a : 
+S'' : $ : 
